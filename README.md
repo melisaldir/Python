@@ -1,2 +1,2 @@
 # Python
-#  vektörel grup_92
+#  vektörel grup_92.

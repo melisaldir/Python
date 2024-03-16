@@ -8,7 +8,8 @@ def carp(x,yy):
 #sayi2 = 7
 sayi1 = int(input("Birinci sayı nedir?"))
 sayi2 = int(input("İkinci sayı nedir?"))
-#topla(4,6)
+
+#topla(sayi1,sayi2) tek başına işlemi yapar ancak bir yerde görünmez
 print(topla(sayi1,sayi2))
 
 #fonksiyonlarda geri dönüş olmadan bu şekilde kullanılmaz

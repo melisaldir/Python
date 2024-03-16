@@ -1,0 +1,6 @@
+ad = "Melisa"
+yas = 18
+print(yas)
+print(ad,"Demek yaşın", yas)
+print(f"{ad} Demek yaşın {yas}") #en çok kullanılan
+print("{} Demek yaşın {}".format(ad,yas))

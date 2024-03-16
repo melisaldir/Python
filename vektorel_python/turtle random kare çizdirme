@@ -1,0 +1,17 @@
+import turtle
+import random
+renkler=["red","blue","magenta","yellow","pink"]
+turtle.speed(10)
+for i in range(random.randint(1,10)):
+    turtle.penup()
+    #turtle.goto(-200,-20)
+    turtle.goto(random.randint(-300,300),random.randint(-300,300))
+    turtle.pendown()
+    l = random.randint(10,500)
+    for a in range(4):
+        #print(renkler[a])
+        #turtle.color(renkler[a])
+        turtle.color(random.choice(renkler))
+        turtle.forward(l)
+        turtle.right(90)
+input()

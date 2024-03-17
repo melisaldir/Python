@@ -1,0 +1,20 @@
+class Ogrenci:
+    tc = "55309275934"
+    adi = "Erdinç"
+    numarası = 202
+
+print(Ogrenci.adi)
+print(Ogrenci.tc)
+
+ogrenci1 = Ogrenci
+ogrenci2 = Ogrenci
+
+print(ogrenci1.adi)
+print(ogrenci1.tc)
+
+ogrenci1.adi="Gökhan Demir"
+print(ogrenci1.adi)
+print(Ogrenci.adi)
+ogrenci2.adi="Melisa Saldir"
+print(ogrenci1.adi)
+print(ogrenci2.adi)

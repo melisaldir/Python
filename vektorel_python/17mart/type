@@ -1,0 +1,22 @@
+sayi = 3
+Sayi = 4
+#sayi = 5
+sayi2 = 6.7
+# 3sayi = 7 => sayi ile baslayamaz
+# sayi-2 =6 => _'dan baska kullanilmaz
+
+sayi_2 = 6
+okulNumarasi = 458
+okul_numarasi = 460
+adi = "Melisa Saldir"
+ogrenciAktifMi = True
+print(sayi)
+print(Sayi)
+# print(3sayi)
+print(sayi2)
+print(type(sayi2))
+print(type(sayi))
+print(adi)
+print(type(adi))
+print(ogrenciAktifMi)
+print(type(ogrenciAktifMi))

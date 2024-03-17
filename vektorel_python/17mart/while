@@ -1,0 +1,22 @@
+"""
+a=1
+while a<10:
+    print("melisa")
+    a+=1
+
+b=1
+while True:
+    print("Deneme")
+
+
+c=5 
+while a>3:
+    print("A")
+    a-=1
+"""
+meyveler =[]
+eklenecek=" "
+while eklenecek!= "":
+    eklenecek = input("Eklenecek meyve:")
+    if eklenecek!="": meyveler.append(eklenecek)
+    print(meyveler)

@@ -1,0 +1,11 @@
+sayilar = [2,6,5,8,7,7,1,5]
+for a in sayilar:
+    print(a)
+
+adet = []
+
+print("Tekrar Edenler")
+for a in range(len(sayilar)):
+    for b in range(len(sayilar)):
+        if sayilar[a] == sayilar[b] : print(a)
+

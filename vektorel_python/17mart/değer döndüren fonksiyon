@@ -1,0 +1,17 @@
+def topla(aa,bb):
+    print(aa,"ile",bb,"toplamı",aa+bb)
+    return aa+bb
+
+def carp(aa,bb):
+    return aa*bb
+
+xx =10
+yy =3
+c=2
+topla(10,10)
+print("toplam:",topla(10,20))
+print(topla(10,yy))
+print(carp(xx,yy))
+carp(xx,2)
+print(topla(10,topla(xx,yy)))
+print(topla(carp(c,xx),4))

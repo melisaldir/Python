@@ -1,7 +1,2 @@
 import datetime
 print("Bugün:", datetime.date.today())
-
-from datetime import datetime
-for a in range (1):
-    from datetime import datetime
-    print("Şimdi=", datetime.now())

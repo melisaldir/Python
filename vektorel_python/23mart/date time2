@@ -1,0 +1,15 @@
+import datetime, random
+print("Bugün:", datetime.date.today())
+print("Tarih saat-", datetime.datetime.now().strftime("%d/%m/%Y %H:%M:%S"))
+print("Yıl-", datetime.datetime.now().strftime("%Y"))
+a=datetime.datetime.now().strftime("%Y")
+b=datetime.datetime.now().strftime("%m")
+c=datetime.datetime.now().strftime("%d")
+yil =int(a)+random.randint(1,5)
+ay =int(b)+random.randint(1,9)
+gün =int(c)+random.randint(1,7)
+print(yil,ay,gün)
+from datetime import datetime
+for a in range (1):
+    from datetime import datetime
+    print("Şimdi=", datetime.now())

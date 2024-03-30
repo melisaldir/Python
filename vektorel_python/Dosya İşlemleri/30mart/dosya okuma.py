@@ -1,7 +1,6 @@
-#not1 = 5
-#with open("deneme.txt","a") as xx:
-#   xx.write(f"Puan:{not1})
-
+okunan = open("deneme1.xx","r")
+print(okunan.read(5)) #read(5) ile 5 karakter okunur
+print(okunan.readline()) #readline ile satır okunur
 try:
     okunan = open("deneme1.xx","r")
     print(okunan.read())

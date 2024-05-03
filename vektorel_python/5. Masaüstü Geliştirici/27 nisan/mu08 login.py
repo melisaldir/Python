@@ -17,13 +17,12 @@ class loginPenceresi(QMainWindow):
 
         dugme1.clicked.connect(self.kontrolEt)
     
-
         araclar = QWidget()
         araclar.setLayout(icerik)
         self.setCentralWidget(araclar)
     
     def kontrolEt(self):
-        print("Düğmeye tıklandı..")
+        print("Düğmeye tıklandı")
 
         
 uygulama = QApplication([])
